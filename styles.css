@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #022B3A;
+    font-family: "Comic Relief", system-ui !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    color: white;
+}
+
+div {
+    margin: 10px;
+}
+
+#navbar {
+    background: #1F7A8C;
+    margin: 0px;
+    padding: 10px;
+    padding-right: 0px;
+    text-align: right;
+    color: #022B3A;
+    text-decoration: none;
+}
+
+#navbar nav a {
+    padding: 10px;
+    color: #022B3A;
+    transition: 250ms;
+    text-decoration: none;
+}
+
+#navbar nav a:hover {
+    background: #196979;
+}
+
+.activePage {
+    background: #218599;
+}
+
+#title {
+    background-image: url('images/discordheader.png');
+    background-color: #1F7A8C;
+    background-size: cover;
+    background-position-y: center;
+    margin: 0px;
+    padding: 10px;
+    color: #BFDBF7;
+    border: #1F7A8C 5px solid;
+}
+
+#info p {
+    margin: 20px;
+}
