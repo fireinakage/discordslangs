@@ -41,6 +41,7 @@ div {
 
 #title {
     background-image: url('images/discordheader.png');
+    height: 200px;
     background-color: #1F7A8C;
     background-size: cover;
     background-position-y: center;
@@ -48,8 +49,17 @@ div {
     padding: 10px;
     color: #BFDBF7;
     border: #1F7A8C 5px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #info p {
-    margin: 20px;
+    padding-top:  20px;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+
 }
